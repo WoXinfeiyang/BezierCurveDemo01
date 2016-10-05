@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btn_ShoppingCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物车动画效果"
+        android:onClick="onButtonClick"
+        />
+
+    <Button 
+        android:id="@+id/btn_My360Clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿360内存清理动画效果"
+        android:onClick="onButtonClick"
+        />
+    	
+    <Button 
+        android:id="@+id/btn_Favor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视频直播点赞画效果"
+        android:onClick="onButtonClick"
+        />
+    
+</LinearLayout>
